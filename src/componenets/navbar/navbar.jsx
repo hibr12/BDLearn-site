@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import logo from '../../assets/logo.png'
 const Navbar = () => {
+    const [steky,setsteky]=useState(false)
+
+    useEffect(()=>{
+        window.addEventListener('scroll',()=>{
+            window.scrollY>50?setsteky(true):setsteky(false)
+
+        })
+    },[])
   return (
-    <nav className='container'>
+    <nav className={`container ${steky? 'dark-nav':''}`}>
         <img src={logo} alt="the image not found" className='logo' />
         <ul>
             <li>HOME</li>

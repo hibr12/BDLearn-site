@@ -1,0 +1,30 @@
+.campus {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.gallery img {
+  width: 23%;
+  border-radius: 10px;
+}
+.dark-btn {
+  width: 150px;
+  height: 40px;
+  background: #212ea0;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+.arrowimg {
+  width: 30px;
+  margin-left: 7px;
+  margin-top: 3px;
+}

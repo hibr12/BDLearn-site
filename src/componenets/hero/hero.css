@@ -1,0 +1,27 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(8,0,57,0.7),rgba(8,0,59,0.7)), url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.text-container{
+   
+   align-items: center;
+   justify-content: center;
+   
+}
+.hero-text{
+    position: absolute;
+    text-align: center;
+    max-height: 800px;
+    margin-top: 220px;
+    margin-left: 100px;
+   margin-right: 100px;
+  
+}
+
+
+
